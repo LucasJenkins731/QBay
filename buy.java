@@ -49,26 +49,31 @@ public class buy {
                 case "1":
                     System.out.println("Framework Laptop 16 has been added to cart");
                     cart.add("Framework Laptop 16");
+                    Main.main(null);
                     break;
                 case "2":
                     System.out.println("Math Textbook has been added to cart");
                     cart.add("Math Textbook");
+                    Main.main(null);
                     break;
                 case "3":
                     System.out.println("Nintendo Switch OLED Model has been added to cart");
                     cart.add("Nintendo Switch OLED Model");
+                    Main.main(null);
                     break;
                 case "4":
                     System.out.println("QU Branded Pens has been added to cart");
                     cart.add("QU Branded Pens");
+                    Main.main(null);
                     break;
                 case "5":
                     System.out.println("LTT Computer Backpack have been added to cart");
                     cart.add("LTT Computer Backpack");
+                    Main.main(null);
                     break;
                 case "6":
                     System.out.println("Back to menu");
-                    //method to go back to main menu will go here
+                    Main.main(null);
                     break;
                 default:
                     System.out.println("Invalid input");
