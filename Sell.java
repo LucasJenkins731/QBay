@@ -67,7 +67,7 @@ public class Sell {
                 System.out.println("Would you like to edit a listing? y/n");
                 in = input.nextLine().toUpperCase();
 
-                if ("Y".equals(in) || "EDIT".equals(in)) {
+                if ("Y".equals(in) || "YES".equals(in) || "EDIT".equals(in)) {
                     System.out.println("> Editor mode engaged");
                     System.out.println("> You currently have [" + itemCount + "] items for sale");
                     System.out.println(" ");
@@ -95,9 +95,9 @@ public class Sell {
                         in2 = input2.nextInt();
                         itemArray[in2] = in;
                     }
-                    // else {
-                    //     break;
-                    // }
+                    else {
+                        System.out.println("input not recognized as valid, please try again");
+                    }
                 }
 
 
@@ -111,7 +111,9 @@ public class Sell {
 
             } else if ("EXIT".equals(in)) {
                 isLoop = false;
-                break;
+                //break;
+                Main.main(null);
+
             } else {
                 System.out.println("input not recognized as valid, please try again");
             }
