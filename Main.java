@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-
+      
         Login.main(null);
 
         Scanner input = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class Main {
             //Cart.main(null);
         }
         if ("LOGOUT".equals(in)) {
-            //Logout.main(null);
+            Logout.main(null);
         }
     }
 }
