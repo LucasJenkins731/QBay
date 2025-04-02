@@ -1,6 +1,15 @@
 import java.util.Scanner;
 public class Main {
+
+    private static int count = 1;
+
     public static void main(String[] args) {
+        
+
+        if(count == 1){
+            count = 0;
+            Login.main(null);
+        }
 
          Scanner input = new Scanner(System.in);
 
