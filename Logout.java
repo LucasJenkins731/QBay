@@ -4,5 +4,4 @@ public class Logout {
 
             Login.main(null);
         }
-    }
 }
