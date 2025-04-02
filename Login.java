@@ -88,13 +88,13 @@ public class Login {
             System.out.println("What would you like to do, Buy, Sell, Cart, or Logout?");
             String in = input.nextLine().toUpperCase();
             if ("BUY".equals(in)) {
-                //Buy.main(null);
+                buy.buy();
             }
             if ("SELL".equals(in)) {
                 Sell.main(null);
             }
             if ("CART".equals(in)) {
-                //Cart.main(null);
+                Cart.checkCart();
             }
             if ("LOGOUT".equals(in)) {
                 Logout.main(null);
