@@ -31,6 +31,7 @@ public class Login {
                     break;
                 case 3:
                     System.out.println("Exiting App");
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Invalid choice. Please enter either 1, 2, or 3 as an option.");
