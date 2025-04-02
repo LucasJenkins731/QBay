@@ -11,7 +11,7 @@ public class Main {
             Login.main(null);
         }
 
-         Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("What would you like to do, Buy, Sell, Cart, or Logout?");
         String in = input.nextLine().toUpperCase();
