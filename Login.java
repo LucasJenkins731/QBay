@@ -82,8 +82,23 @@ public class Login {
         if (loggedIn = true){
             System.out.println("Please choose one of the following options: ");
             
-            //call main to run the other classes
-            Main.main(null);
+        //call  to run the other classes
+            Scanner input = new Scanner(System.in);
+
+            System.out.println("What would you like to do, Buy, Sell, Cart, or Logout?");
+            String in = input.nextLine().toUpperCase();
+            if ("BUY".equals(in)) {
+                //Buy.main(null);
+            }
+            if ("SELL".equals(in)) {
+                Sell.main(null);
+            }
+            if ("CART".equals(in)) {
+                //Cart.main(null);
+            }
+            if ("LOGOUT".equals(in)) {
+                Logout.main(null);
+            }
         } else
         System.out.println("Too many attempts. Your account has been locked.");
     }
