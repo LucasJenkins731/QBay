@@ -13,7 +13,7 @@ public class Main {
             Sell.main(null);
         }
         if ("CART".equals(in)) {
-            //Cart.main(null);
+            Cart.checkCart();
         }
         if ("LOGOUT".equals(in)) {
             //Logout.main(null);

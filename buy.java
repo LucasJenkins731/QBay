@@ -2,8 +2,6 @@ import java.util.*;
 
 public class buy {
 
-    private static ArrayList<String> cart = new ArrayList<>();
-
     public static void buy(){
             Scanner scanner = new Scanner(System.in);
     
@@ -47,28 +45,23 @@ public class buy {
                     break;
                 //If number is entered, corresponding item is added to cart
                 case "1":
-                    System.out.println("Framework Laptop 16 has been added to cart");
-                    cart.add("Framework Laptop 16");
+                    Cart.addItem("Framework Laptop 16", 1600.00);
                     Main.main(null);
                     break;
                 case "2":
-                    System.out.println("Math Textbook has been added to cart");
-                    cart.add("Math Textbook");
+                    Cart.addItem("Math Textbook", 200.00);
                     Main.main(null);
                     break;
                 case "3":
-                    System.out.println("Nintendo Switch OLED Model has been added to cart");
-                    cart.add("Nintendo Switch OLED Model");
+                    Cart.addItem("Nintendo Switch OLED Model", 340.00);
                     Main.main(null);
                     break;
                 case "4":
-                    System.out.println("QU Branded Pens has been added to cart");
-                    cart.add("QU Branded Pens");
+                    Cart.addItem("QU Branded Pens", 4.00);
                     Main.main(null);
                     break;
                 case "5":
-                    System.out.println("LTT Computer Backpack have been added to cart");
-                    cart.add("LTT Computer Backpack");
+                    Cart.addItem("LTT Computer Backpack", 50.00);
                     Main.main(null);
                     break;
                 case "6":
