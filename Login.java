@@ -80,31 +80,9 @@ public class Login {
         //give the user the options: buy sell cart logout
         if (loggedIn = true){
             System.out.println("Please choose one of the following options: ");
-                System.out.println("1. Buy");
-                System.out.println("2. Sell");
-                System.out.println("3. Cart");
-                System.out.println("4. Logout");
-
-                option = scan.nextInt();
-                scan.nextLine();
-
-                //call each class so that the "app" runs correctly
-                switch(option){
-                    case 1:
-                     //Buy.main(null);
-                        break;
-                    case 2: 
-                    Sell.main(null);
-                        break;
-                    case 3:
-                     //Cart.main(null);
-                        break;
-                    case 4: 
-                    Logout.main(null);
-                        break;
-                    default: 
-                    System.out.println("Invalid choice. Please enter either 1, 2, 3, or 4 as an option.");
-                }
+            
+            //call main to run the other classes
+            Main.main(null);
         } else
         System.out.println("Too many attempts. Your account has been locked.");
     }

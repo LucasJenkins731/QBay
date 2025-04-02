@@ -112,7 +112,7 @@ public class Sell {
             } else if ("EXIT".equals(in)) {
                 isLoop = false;
                 //break;
-                Login.main(null);
+                Main.main(null);
 
             } else {
                 System.out.println("input not recognized as valid, please try again");
