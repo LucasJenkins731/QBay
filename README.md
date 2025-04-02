@@ -5,7 +5,7 @@ This program will simulate an online shop for its users. Users will be able to c
 Buy:
 - User is asked what they would like to buy out of the selection that we offer from the Sell.java class and the user is also given the option to request more information about an item
 
-- when user selects the option to request more informaiton they are given the product nae, product category, who is the seller, the seller's contact information, and the price of the item
+- When user selects the option to request more informaiton they are given the product nae, product category, who is the seller, the seller's contact information, and the price of the item
 
 - Howver; if the user selects which item they would like to buy, the item and the price is then added to the users cart by calling Cart.java
 
